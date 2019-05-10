@@ -1,0 +1,22 @@
+{
+  "name": "testing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "query-string": "^6.5.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "tape src/test.js | tap-spec",
+    "server": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
